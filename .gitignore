@@ -1,0 +1,11 @@
+# macOS finder preferences
+.DS_Store
+
+# IntelliJ project preferences
+/.idea
+
+# Gradle cache
+/.gradle
+
+# Jar build output
+/build

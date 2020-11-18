@@ -1,0 +1,32 @@
+// Enable java
+apply plugin: 'java'
+
+// Namespace
+group = 'io.github.geodesicraft'
+
+// Plugin version
+version = '0.0.1'
+
+// Jar name
+archivesBaseName = 'Geodesicraft'
+
+// Require at least Java 8
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    // Maven Central
+    mavenCentral()
+
+    // Spigot API
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+
+    // Bungeecord ChatComponent-API (Spigot API depends on this)
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots/' }
+}
+
+dependencies {
+    // Spigot API version
+    compileOnly 'org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT'
+}
+

@@ -1,0 +1,6 @@
+name: Geodesicraft
+version: 0.0.1
+author: jonthesquirrel
+main: io.github.geodesicraft.geodesicraft.SpigotPlugin
+website: https://github.com/geodesicraft
+api-version: 1.16
