@@ -23,10 +23,15 @@ repositories {
 
     // Bungeecord ChatComponent-API (Spigot API depends on this)
     maven { url = 'https://oss.sonatype.org/content/repositories/snapshots/' }
+
+    // WorldEdit API
+    maven { url = 'https://maven.enginehub.org/repo/' }
 }
 
 dependencies {
     // Spigot API version
     compileOnly 'org.spigotmc:spigot-api:1.16.4-R0.1-SNAPSHOT'
-}
 
+    // WorldEdit API version
+    compileOnly 'com.sk89q.worldedit:worldedit-core:7.2.0'
+}

@@ -4,6 +4,7 @@ author: jonthesquirrel
 main: io.github.geodesicraft.geodesicraft.SpigotPlugin
 website: https://github.com/geodesicraft
 api-version: 1.16
+depend: [WorldEdit]
 commands:
   /geo:
     description: Generate Geodesic Domes
