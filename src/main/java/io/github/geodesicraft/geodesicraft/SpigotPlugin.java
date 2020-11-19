@@ -21,4 +21,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class SpigotPlugin extends JavaPlugin {
 
+    @Override
+    public void onEnable() {
+        this.getCommand("/geo").setExecutor(new CommandGeo());
+    }
+
 }

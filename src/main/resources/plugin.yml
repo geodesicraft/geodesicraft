@@ -4,3 +4,8 @@ author: jonthesquirrel
 main: io.github.geodesicraft.geodesicraft.SpigotPlugin
 website: https://github.com/geodesicraft
 api-version: 1.16
+commands:
+  /geo:
+    description: Generate Geodesic Domes
+    usage: "Use the //geo command generator: §bhttps://geodesicraft.github.io"
+    permission: geodesicraft.geo
